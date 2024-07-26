@@ -96,12 +96,3 @@ The Pollution Sensor Thread is the timer of the pipeline and handles MQTT broadc
 $, 10)$
 <h2>FIX and QUIT commands</h2>
 Both FIX and QUIT commands are being handled through dedicated threads, created once the commands are typed. To be fair the existence of a specialized thread just to send a process to the mechanic is really useless and could be avoided altogether. The QUIT command is a bit more complicated and having a thread in that case is a bit more useful, because if it has to wait doesn't lock the entirety of the input pipeline, but could still be removed in favour of a synchronized function.
-<h2>Final thoughts and future upgrades</h2>
-The solution I found is far from simple and still a bit rough around the edges. A couple of steps that I will take in the near future to make the solution better are:
-
-  - [ ] Cleaning the repository
-  - [ ] Lower the project complexity, find ways to merge functionalities together and lower the amount of threads per process
-  - [ ] Do code refactoring to better define responsibilities inside the network
-  - [ ] Change a couple of asynchronous GRPCs to better suited synchronous remote procedure calls
-  - [ ] Create a GUI to better understand what is going on
-  - [ ] Write good code documentation

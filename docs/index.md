@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+Welcome on my portfolio website!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I'm a computer science student at the end of my master studies at University of Milan, I have been interested in past years in the field of distributed systems technologies and cloud environments, I am now moving towards the field of applied machine learning after the course of Machine Learning for Physics held by professor
+Tilman Plehn at Karl Ruprecht university of Heidelberg.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+I am in the process of starting my master Thesis titled "Supervised machine learning techniques for quench detecction in superconductors" accompanied by both professors Dario Malchiodi and Lucio Rossi.
