@@ -1,1 +1,9 @@
 site_name: My Docs
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Latest project: 
+    - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
+  - Old projects:
+    - "Greenfield": greenfield/readme.md
