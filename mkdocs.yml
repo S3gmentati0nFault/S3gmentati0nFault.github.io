@@ -1,4 +1,14 @@
-site_name: My Docs
+# Project configuration
+site_name: Alessandro Biagiotti's portfolio
+site_url: https://S3gmentati0nFault.github.io/
+site_author: Alessandro Biagiotti
+site_description: >-
+  I'm Alessandro Biagiotti master student of Computer Science at the University of Milan.
+repo_name: S3gmentati0nFault/S3gmentati0nFault.github.io
+repo_url: https://github.com/S3gmentati0nFault/S3gmentati0nFault.github.io
+
+theme:
+  name: material
 
 nav:
   - Home: index.md
