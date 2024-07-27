@@ -1,3 +1,6 @@
+The project can be found on <a href="https://github.com/S3gmentati0nFault/autoencoders">Github (Autoencoders project)</a>, consider that the code cannot be executed unless a different dataset is provided (the original dataset url was taken down).
+
+<h2>Introduction</h2>
 I did this project alongside Mario Massimo (<a href="https://github.com/MassimoMario">his github</a>) during my stay in Heidelberg for the course of Machine Learning and Physics held by professor Tilman Plehn, the project was aimed at comparing the performance of two different machine learning architectures, the first one being an MLP based autoencoder and the second one being a CNN based autoencoder.
 
 The dataset came from the professor and a given preprocessing step was applied to turn the tracker information coming from the LHC into 40x40 images.

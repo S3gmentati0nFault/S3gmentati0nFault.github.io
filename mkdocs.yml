@@ -4,16 +4,15 @@ site_url: https://S3gmentati0nFault.github.io/
 site_author: Alessandro Biagiotti
 site_description: >-
   I'm Alessandro Biagiotti master student of Computer Science at the University of Milan.
-repo_name: S3gmentati0nFault/S3gmentati0nFault.github.io
-repo_url: https://github.com/S3gmentati0nFault/S3gmentati0nFault.github.io
 
 theme:
   name: material
 
 nav:
   - Home: index.md
-  - Latest project: 
-    - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
+  - Latest project:
+      - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
   - Old projects:
-    - "Greenfield": greenfield/readme.md
-    - "Anomaly detection": autoencoders/readme.md
+      - "Anomaly detection": autoencoders/readme.md
+      - "Greenfield": greenfield/readme.md
+      - "Algoweb": algoweb/readme.md
