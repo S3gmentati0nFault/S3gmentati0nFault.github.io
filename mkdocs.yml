@@ -16,3 +16,4 @@ nav:
       - "Anomaly detection": autoencoders/readme.md
       - "Greenfield": greenfield/readme.md
       - "Algoweb": algoweb/readme.md
+      - "Discrete structures 1": structures/readme.md

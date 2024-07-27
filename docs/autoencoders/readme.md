@@ -18,4 +18,4 @@ When it comes to a more practical scenario, whenever top jets are signal and QCD
 
 The code can be found on my github repository alongside some commentary, unfortunately the dataset is not available anymore, therefore there is no visible results but the code is still up for reading alongside some commentary. The requirements of the sheet can be downloaded below.
 
-<a href="https://github.com/S3gmentati0nFault/autoencoders/releases/download/Major/sheet.pdf">sheet requirements</a>
+<a href="https://github.com/S3gmentati0nFault/autoencoders/releases/download/Major/sheet.pdf">Download sheet requirements</a>
