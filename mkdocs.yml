@@ -15,6 +15,7 @@ nav:
   - Old projects:
       - "Anomaly detection": autoencoders/readme.md
       - "Greenfield": greenfield/readme.md
+      - "Bachelor Thesis": bachelor/readme.md
+      - "Pump down the flame": vdp/readme.md
       - "Algoweb": algoweb/readme.md
       - "Discrete structures 1": structures/readme.md
-      - "Pump down the flame": vdp/readme.md
