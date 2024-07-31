@@ -1,5 +1,7 @@
 The project can be found on <a href="https://github.com/S3gmentati0nFault/autoencoders">Github (Autoencoders project)</a>.
 
+This project was written mainly in **Python** using **Jupyter notebooks**.
+
 <h2>Introduction</h2>
 I did this project alongside <a href="https://github.com/MassimoMario">Mario Massimo</a> during my stay in Heidelberg for the course of Machine Learning and Physics held by professor <a href="https://www.thphys.uni-heidelberg.de/~plehn/">Tilman Plehn</a>. The project aimed at comparing performance for two different machine learning architectures, the first being an MLP based autoencoder and the second being a CNN based autoencoder, in the field of anomaly detection.
 

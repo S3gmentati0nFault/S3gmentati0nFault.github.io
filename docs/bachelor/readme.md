@@ -1,5 +1,11 @@
 The project can be found on <a href="https://github.com/S3gmentati0nFault/Anagrafica-Aziendale">Github (Bachelor project)</a>
 
+This project was written mainly in:
+
+- **Java** for the backend
+- **Javascript** for the frontend
+- **LaTeX** for the final thesis
+
 <h2> Introduction </h2>
 My bachelor project consisted in the development of a microservice-based web application to securely handle sensitive user data for a company. To each user are associated: private information, soft skills, hard skills and a role. The application was developed using Spring Boot, ReactJS and MySQL databases. The project was presented in July 2021.
 

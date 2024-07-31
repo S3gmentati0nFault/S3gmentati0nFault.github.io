@@ -1,6 +1,8 @@
 <h1>Greenfield</h1>
 The project can be found on <a href="https://github.com/S3gmentati0nFault/Greenfield">Github (Greenfield project)</a>
 
+This project was written mainly in **Java**.
+
 <h2>Introduction</h2>
 In the repository linked above is contained all of the code for the project of Distributed and Pervasive Systems held by professors Claudio Bettini and Luca Arrota at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli Studi di Milano</a>, the project was presented in September 2023.
 

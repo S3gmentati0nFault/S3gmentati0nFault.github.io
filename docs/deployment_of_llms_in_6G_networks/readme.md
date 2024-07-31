@@ -1,5 +1,7 @@
 The repository for this project can be found on <a href="https://github.com/S3gmentati0nFault/cct-paper">Github (CCT-project)</a>
 
+This project was written mainly in **LaTeX**.
+
 <h2> Introduction </h2>
 This project was a research paper written for the course of Cloud Computing Technologies held by
 Professors Claudio Ardagna and Marco Anisetti at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>.
