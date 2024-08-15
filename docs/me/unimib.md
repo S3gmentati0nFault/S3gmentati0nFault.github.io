@@ -1,5 +1,5 @@
-I finished my bachelor with a degree in computer science at the <a href="https://www.unimib.it/">University of Milano Bicocca</a> in 2022.
-I graduated with 102/110 with a thesis about the project that I did with a colleague for <a href="https://www.certimetergroup.com/">Certimeter group</a>, a Torino based company. During the studies I went through the following exams:
+I finished my bachelor with a degree in computer science at <a href="https://www.unimib.it/">Università degli studi di Milano Bicocca</a> (Unimib) in 2022.
+I graduated with 102/110 with a <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">thesis</a> about the project that I did with a colleague for <a href="https://www.certimetergroup.com/">Certimeter group</a>, a Torino based company. During the studies I went through the following exams:
 
 - Foundamentals of algebra
 
@@ -19,6 +19,6 @@ I graduated with 102/110 with a thesis about the project that I did with a colle
 
 - Probability and statistics
 
-- Database
+- Databases
 
 - Software engineering

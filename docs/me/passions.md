@@ -1,14 +1,14 @@
 I have always been easily impressed by people and if I came across anyone with a very strong drive in some area I would easily be captivated and start gaining interest in that area as well, this is why I have tried many different hobbies and, to this day, I have many different interests that I would like to explore further if I had the time.
 
 <h2> Movies </h2>
-Movies are probably one of the things that I like the most, leave me in front of a good TV or at the movie theater and you will find me there. I am trying to build a movie culture that is as broad as possible.
+Movies are probably the thing that I like the most at the moment, leave me in front of a good TV or at the movie theater and you will find me there. I am trying to build a movie culture that is as broad as possible.
 
 My favourite new director is Denis Villeneuve, I think that his movies have an incredible feeling, he is very talented in both directing and photography. My favourite movie of his might be Blade Runner 2049.
 
-My favourite old director is Stanley Kubrick, I have seen most of his movies and I do think that his works are simply timeless and will always be relevant and impressive. My favourite movie of his is The Shining.
+My favourite "vintage" director is Stanley Kubrick, I have seen most of his movies and I do think that his works are simply timeless and will always be relevant and impressive. My favourite movie of his is The Shining.
 
 <h2> Climbing </h2>
-I really like climbing, I have been doing it for around half a year and I feel very comfortable while bouldering, top roping and lead climbing are still another story. I am trying to get better at it and until now I was able to always train between one and two times a week.
+I really like climbing, I have been doing it for around half a year and I feel very comfortable while bouldering, top roping and lead climbing are still a bit out of my comfort zone but my objective is to be able to do at least one easy outdoors climbing route before the end of the year. I am trying to get better at it and until now I was able to always train between one and two times a week.
 
 <div style="display: flex;">
  <div style="flex:1; padding: 10px; height: 100%">
@@ -45,6 +45,11 @@ I still own a camera, but I do not use it anymore I usually just take pictures w
     <img src="../assets/tempest.jpg" alt="Could not load the image">
   </div>
 </div>
+
+<h2> Basketball </h2>
+I played basketball for ten years as a kid and the passion never really went away, I have always
+been into the NBA and I followed it (sometimes more, sometimes less) for the last seven years. Go
+OKC!
 
 <h2> Reading </h2>
 I have never been a reader in my life, always struggled with the idea of reading a book, but when I started going to university I built a habit and I found a way of keeping me into the loop. I am surely not the fastest reader, I am not one of those people that can read 50 books a year, but I do enjoy reading and I do it when I can and when I feel like it. Currently trying to read more classics.

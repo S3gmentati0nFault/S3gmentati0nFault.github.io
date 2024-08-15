@@ -1,7 +1,13 @@
 The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/Anagrafica-Aziendale">Github (Bachelor project)</a>
 
+This project was written mainly in:
+
+- **Java** for the backend
+- **Javascript** for the frontend
+- **LaTeX** for the final thesis
+
 <h2> Introduction </h2>
-My bachelor project consisted in the development of a microservice-based web application to securely handle sensitive user data for a company. The project was presented in July 2021.
+My bachelor project consisted in the development of a microservice-based web application to securely handle sensitive user data for a company. To each user are associated: private information, soft skills, hard skills and a role. The application was developed using Spring Boot, ReactJS and MySQL databases. The project was presented in July 2021.
 
 The project consisted of six components:
 
@@ -11,9 +17,9 @@ The following components developed using Spring Boot:
 
 - Gateway - The entry point of the application
 
-- Security microservice
+- Security
 
-- Backend microservice
+- Backend
 
 And then two MySQL databases:
 
@@ -21,7 +27,7 @@ And then two MySQL databases:
 
 - Primary database - which handles the rest of the user information
 
-To handle the distribution of the microservices both Dockerfile and Docker-compose were used. The UI of the project is shown in the following figure.
+All of the components were handled using microservices which were built using both Dockerfile and Docker-compose. The UI of the project was developed using ReactJS and a sample is shown in the following figure.
 
 <figure>
   <img src="../assets/frontend.png" alt="Could not load the image">

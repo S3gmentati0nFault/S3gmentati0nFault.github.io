@@ -1,5 +1,7 @@
 The project can be found on <a href="https://github.com/S3gmentati0nFault/programmazione-cpp">Github (C++ programming project)</a>
 
+This project was written mainly in **C++**.
+
 <h2>Introduction</h2>
 The project was assigned for the course of C++ programming at <a href="https://s3gmentati0nfault.github.io/me/unimib/">Università degli studi Milano Bicocca</a> held by professor <a href="http://www.ivl.disco.unimib.it/people/gianluigi-ciocca/">Gianluigi Ciocca</a>.
 

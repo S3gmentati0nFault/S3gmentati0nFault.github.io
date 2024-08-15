@@ -1,12 +1,12 @@
-I began my master in Computer Science at the <a href="https://www.unimi.it/en">University of Milan</a> in September 2022 wanting to focus on web development, distributed systems and cloud technologies.
+I began my master in Computer Science at <a href="https://www.unimi.it/en">Università degli studi di Milano</a> (Unimi) in September 2022 wanting to focus on web development, distributed systems and cloud comptuing.
 
-After some time I discovered the existence of other fields, like machine learning, and I fell in love with the idea of finally applying computer science as an instrument to support research in other fields. I started my thesis in September 2024 and it's titled "Supervised machine learning techniques for quench detecction in superconductors" followed by professor <a href="https://malchiodi.di.unimi.it/">Dario Malchiodi</a> and <a href="https://en.wikipedia.org/wiki/Lucio_Rossi">Lucio Rossi</a>.
+After some time I discovered the existence of other fields, like machine learning, and I fell in love with the idea of using computer science as an instrument to support research in other fields. I started my thesis in September 2024 and it's titled "Supervised machine learning techniques for quench detection in superconductors" followed by professor <a href="https://malchiodi.di.unimi.it/">Dario Malchiodi</a> and <a href="https://en.wikipedia.org/wiki/Lucio_Rossi">Lucio Rossi</a>.
 
 My university curriculum is a mix of theoretical computer science, with the following courses:
 
 - Algoritmi e complessità (Algorithms and Complexity) - A course about advanced algorithms.
 
-- Metodi probabilistici per l'informatica (Probabilistic methods for computer science) - A course about Markov Chains and their applications.
+- Metodi probabilistici per l'informatica (Probabilistic methods for computer science) - A course about Markov Chains and their applications in the field of computer science.
 
 - Algoritmica per il web (web algorithmics) - A course about the latest technologies in the field of web algorithmics.
 
@@ -28,6 +28,6 @@ and some other misc courses like:
 
 - Fisica degli acceleratori 1 (Accelerator physics 1)
 
-- Artificial intelligence
+- Artificial intelligence - An introductory course about AI.
 
 - Videogame design and programming

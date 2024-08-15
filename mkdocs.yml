@@ -20,7 +20,7 @@ nav:
       - "Greenfield": greenfield/readme.md
       - "Bachelor Thesis": bachelor/readme.md
       - "Pump down the flame": vdp/readme.md
-      - "Algoweb": algoweb/readme.md
+      - "Web algorithmics": algoweb/readme.md
       - "C++ programming project": cpp/readme.md
       - "Programming languages project": pl/readme.md
       - "Discrete structures 1": structures/readme.md
@@ -29,6 +29,6 @@ nav:
       - "Passions": me/passions.md
       - "Other projects": me/projects.md
       - "Erasmus": me/erasmus.md
-      - "University of Milan": me/unimi.md
-      - "University of Milan Bicocca": me/unimib.md
-      - "Polytechnic university of Milan": me/polimi.md
+      - "Unimi": me/unimi.md
+      - "Unimib": me/unimib.md
+      - "Polimi": me/polimi.md

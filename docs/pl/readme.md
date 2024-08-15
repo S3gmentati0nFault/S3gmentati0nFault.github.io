@@ -1,5 +1,7 @@
 The project can be found on <a href="https://github.com/S3gmentati0nFault/MST-implementation">Github (MST implementation)</a>
 
+This project was written mainly in **Common Lisp** and **Prolog** using **emacs**.
+
 <h2>Introduction</h2>
 The project was assigned for the course of Programming Languages at <a href="https://s3gmentati0nfault.github.io/me/unimib/">Università degli studi Milano Bicocca</a> held by professor <a href="https://www.unimib.it/marco-antoniotti">Marco Antoniotti</a>.
 

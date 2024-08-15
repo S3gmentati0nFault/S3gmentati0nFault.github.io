@@ -1,4 +1,4 @@
-I began my bachelor studies pursuing a degree in Computer engineering at the <a href="https://www.polimi.it/en">Polytechnic University of Milan</a>. Unfortunately, due to the covid pandemic in 2020 and family hardships I chose to stop my studies there and to pursue them in some other university.
+I began my bachelor studies pursuing a degree in Computer engineering at <a href="https://www.polimi.it/en">Politecnico di Milano</a> (Polimi). Unfortunately, due to the covid pandemic in 2020 and family hardships I chose to change university.
 
 During the first two years of studying I went through the following exams:
 
