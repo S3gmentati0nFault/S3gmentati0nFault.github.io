@@ -1,5 +1,5 @@
 <h1>Greenfield</h1>
-The project can be found on <a href="https://github.com/S3gmentati0nFault/Greenfield">Github (Greenfield project)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/Greenfield">Github (Greenfield project)</a>
 
 This project was written mainly in **Java**.
 
@@ -148,4 +148,4 @@ Both FIX and QUIT commands are being handled through dedicated threads, created 
 
 I wrote a small document that goes through everything that I mention here plus some more details and charts, it can be downloaded from here.
 
-<a href="https://github.com/S3gmentati0nFault/Greenfield/releases/download/final-release/Project_Presentation.pdf">Download the project presentation</a>
+<a href="https://github.com/S3gmentati0nFaultUni/Greenfield/releases/download/final-release/Project_Presentation.pdf">Download the project presentation</a>
