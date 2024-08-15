@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/autoencoders">Github (Autoencoders project)</a>.
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/autoencoders">Github (Autoencoders project)</a>.
 
 This project was written mainly in **Python** using **Jupyter notebooks**.
 
@@ -27,8 +27,8 @@ As it can be clearly seen the reconstruction procedure is far from perfect, due 
 
 The code can be found on my github repository and down below I provide downloads for the compressed dataset, an HTML version of the notebook with all the outputs and the requirements sheet.
 
-<a href="https://github.com/S3gmentati0nFault/autoencoders/releases/download/Major/sheet.pdf">Download sheet requirements</a>
+<a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/sheet_requirements.pdf">Download sheet requirements</a>
 
-<a href="https://github.com/S3gmentati0nFault/autoencoders/releases/download/final-release/data.zip">Download the compressed dataset</a>
+<a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/data.zip">Download the compressed dataset</a>
 
-<a href="https://github.com/S3gmentati0nFault/autoencoders/releases/download/final-release/easy_reading.html">Download the HTML notebook</a>
+<a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/easy_reading.html">Download the HTML notebook</a>
