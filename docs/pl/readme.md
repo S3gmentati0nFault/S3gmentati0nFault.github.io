@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/MST-implementation">Github (MST implementation)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/MST-implementation">Github (MST implementation)</a>
 
 This project was written mainly in **Common Lisp** and **Prolog** using **emacs**.
 
