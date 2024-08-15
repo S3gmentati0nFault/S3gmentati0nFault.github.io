@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/Discrete-Structures-Notes">GitHub (Discrete Structures 1 project)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/Discrete-Structures-Notes">GitHub (Discrete Structures 1 project)</a>
 
 This project was written mainly in **LaTeX**.
 
@@ -7,4 +7,4 @@ The idea behind this project was to provide students with an open source version
 
 These notes are currently undergoing some maintenance, therefore the last pdf version is not in the best shape, a future release is bound to fix its appearance. The latest version of the notes can be downloaded at the link below.
 
-<a href="https://github.com/S3gmentati0nFault/Discrete-Structures-Notes/releases/download/version1.0/Structures.pdf">Download DS1 notes</a>
+<a href="https://github.com/S3gmentati0nFaultUni/Discrete-Structures-Notes/releases/download/version1.0/Structures.pdf">Download DS1 notes</a>
