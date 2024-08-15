@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/Algoweb">Github (Algoweb project)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/Algoweb">Github (Algoweb project)</a>
 
 This project was written mainly in **LaTeX**.
 
@@ -9,4 +9,4 @@ They are still a very viable option for all the students that take the course.
 
 I consider this project to be a good showcase of my abilities in the field of LaTeX typesetting, if compared to my <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">bachelor thesis</a> I think that this project is more polished and refined.
 
-<a href="https://github.com/S3gmentati0nFault/Algoweb/releases/download/versione_2.0/Algoweb.pdf">Download Algoweb 2.0</a>
+<a href="https://github.com/S3gmentati0nFaultUni/Algoweb/releases/download/versione_2.0/Algoweb.pdf">Download Algoweb 2.0</a>
