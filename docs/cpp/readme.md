@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/programmazione-cpp">Github (C++ programming project)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/programmazione-cpp">Github (C++ programming project)</a>
 
 This project was written mainly in **C++**.
 
@@ -9,6 +9,6 @@ The project consisted of two different assignements, one of common C++ programmi
 
 Down below you can find the description of the two assignements alongside a download of the documentation provided with the source code and generated using doxygen.
 
-<a href="https://github.com/S3gmentati0nFault/programmazione-cpp/releases/download/Final-release/esame.pdf">Download the project assignement</a>
+<a href="https://github.com/S3gmentati0nFaultUni/programmazione-cpp/releases/download/Final-release/esame.pdf">Download the project assignement</a>
 
-<a href="https://github.com/S3gmentati0nFault/programmazione-cpp/releases/download/Final-release/documentation.zip">Download the documentation</a>
+<a href="https://github.com/S3gmentati0nFaultUni/programmazione-cpp/releases/download/Final-release/documentation.zip">Download the documentation</a>
