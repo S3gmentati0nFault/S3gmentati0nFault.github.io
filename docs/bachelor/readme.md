@@ -1,4 +1,4 @@
-The project can be found on <a href="https://github.com/S3gmentati0nFault/Anagrafica-Aziendale">Github (Bachelor project)</a>
+The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/Anagrafica-Aziendale">Github (Bachelor project)</a>
 
 <h2> Introduction </h2>
 My bachelor project consisted in the development of a microservice-based web application to securely handle sensitive user data for a company. The project was presented in July 2021.
@@ -120,6 +120,6 @@ services:
 
 The final thesis for the project can be found on Github as well as the presentation I put together for the final bachelor thesis discussion. The download links are the following:
 
-<a href="https://github.com/S3gmentati0nFault/Tesi-triennale/releases/download/Major/Tesi.pdf">Download last version of the thesis</a>
+<a href="https://github.com/S3gmentati0nFaultUni/Tesi-triennale/releases/download/Major/Tesi.pdf">Download last version of the thesis</a>
 
-<a href="https://github.com/S3gmentati0nFault/Tesi-triennale/releases/download/Major/Presentazione.pdf">Download last version of the presentation</a>
+<a href="https://github.com/S3gmentati0nFaultUni/Tesi-triennale/releases/download/Major/Presentazione.pdf">Download last version of the presentation</a>
