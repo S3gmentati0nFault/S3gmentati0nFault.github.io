@@ -1,4 +1,4 @@
-The repository for this project can be found on <a href="https://github.com/S3gmentati0nFault/cct-paper">Github (CCT-project)</a>
+The repository for this project can be found on <a href="https://github.com/S3gmentati0nFaultUni/cct-paper">Github (CCT-project)</a>
 
 This project was written mainly in **LaTeX**.
 
@@ -29,6 +29,6 @@ In the end I just draw some conclusions and propose some future work that could 
 
 The pdf for both the paper and the presentation can be found at the links below
 
-<a href="https://github.com/S3gmentati0nFault/cct-paper/releases/download/final/paper.pdf">Download the paper</a>
+<a href="https://github.com/S3gmentati0nFaultUni/cct-paper/releases/download/final/paper.pdf">Download the paper</a>
 
-<a href="https://github.com/S3gmentati0nFault/cct-paper/releases/download/final/Deployment.of.LLMs.at.the.edge.of.the.6G.network.pdf">Download the presentation</a>
+<a href="https://github.com/S3gmentati0nFaultUni/cct-paper/releases/download/final/Deployment.of.LLMs.at.the.edge.of.the.6G.network.pdf">Download the presentation</a>
