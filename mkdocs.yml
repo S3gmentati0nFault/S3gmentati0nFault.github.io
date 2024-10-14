@@ -5,17 +5,26 @@ site_author: Alessandro Biagiotti
 site_description: >-
   I'm Alessandro Biagiotti master student of Computer Science at the University of Milan.
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
 theme:
   name: material
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - Home: index.md
   - Latest project:
-      - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
+      - "Efficient MST parallel solver": boruvka/readme.md
   - Older projects:
+      - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
       - "Anomaly detection": autoencoders/readme.md
       - "Greenfield": greenfield/readme.md
       - "Bachelor Thesis": bachelor/readme.md
