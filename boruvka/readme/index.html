@@ -26,7 +26,7 @@
     
     
       
-        <title>Efficient MST parallel solver - Alessandro Biagiotti's portfolio</title>
+        <title>Efficient solution for MST computation on sparse graphs - Alessandro Biagiotti's portfolio</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Efficient MST parallel solver
+              Efficient solution for MST computation on sparse graphs
             
           </span>
         </div>
@@ -258,15 +263,88 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Efficient solution for MST computation on sparse graphs
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Efficient MST parallel solver
+    Efficient solution for MST computation on sparse graphs
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      The algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -718,6 +796,59 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      Background
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      The algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -731,67 +862,69 @@
                   
 
 
-  <h1>Efficient MST parallel solver</h1>
+  <h1>Efficient solution for MST computation on sparse graphs</h1>
 
-<p>The repository for this project can be found on <a href="https://github.com/S3gmentati0nFaultUni/cct-paper">Github (CCT-project)</a></p>
-<p>This project was written mainly in <strong>C, C++, Cuda-C</strong>.</p>
-<h2> Introduction </h2>
-<p>This project was required for the course of GPU computing held by professor Giuliano Grossi at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, the original idea was to implement some sort of coloring algorithm on graphs but, unfortunately, due to some technical problems and challenges (this course is supposed to be an introduction to the world of single-GPU software acceleration without libraries like Open GL) I opted to review the Minimum Spanning Tree problem, that I had encountered a while back in the exam of <a href="https://s3gmentati0nfault.github.io/pl/readme/">Programming languages</a> but view it under a different light.</p>
-<p>As inspirational paper I considered <a href="https://ieeexplore.ieee.org/document/7092783">A generic
-and highly efficient parallel varian of Boruvka's algorithm</a>, the article, like many others
-covering the same topic, follows a "standard" approach to the resolution of the problem (based on
-<a href="https://en.wikipedia.org/wiki/Bor%C5%AFvka%27s_algorithm">Boruvka's algorithm</a>):</p>
+<p>The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/GPU-project">Github (GPU-project)</a>.</p>
+<p>This project was written mainly in <strong>C++</strong> and <strong>CUDA C</strong>.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This project was developed for the exam of GPU computing held by professor <a href="https://grossi.di.unimi.it/">Giuliano Grossi</a> at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, I chose to analyze this problem because I had already considered one of its solutions for the <a href="https://s3gmentati0nfault.github.io/pl/readme/">Programming Languages</a> course during my bachelor.</p>
+<h2 id="background">Background</h2>
+<p>The project is mainly based on the implementation proposed by the University of Minho "A generic and highly efficient parallel variant of Boruvka's algorithm". The performance measurements register an uplift that is comparable to the one computed in the original paper, all of the benchmarks have been conducted on sparse graphs because for a series of reasons: </p>
 <ol>
 <li>
-<p>Choose the lightest edge coming out of every (super-)vertex of the forest.</p>
+<p>Boruvka's algorithm performs better on sparse graphs.</p>
 </li>
 <li>
-<p>Find the root of every (super-)vertex of the forest, the root is the "core" of the connected
-   component identified by the tree containing the newfound (super-)vertex.</p>
+<p>Considering the approach proposed in the original paper it's apparent that it was meant to work
+   at peak performance only when sparse graphs were considered.</p>
+</li>
+</ol>
+<h2 id="the-algorithm">The algorithm</h2>
+<p>Given a graph <span class="arithmatex">\(\mathcal{G}(E, V)\)</span> the CPU version of Boruvka solver has a computational complexity of <span class="arithmatex">\(\mathcal{O}(m\cdot\log{n})\)</span> where <span class="arithmatex">\(m\)</span> is the size of the edge set <span class="arithmatex">\(E\)</span> and <span class="arithmatex">\(n\)</span> is the size of the vertex set <span class="arithmatex">\(V\)</span>. The reason why Boruvka's approach is chosen more often compared to Prim's and Kruscal's counterparts is because it's more indicated for any parallel approach. In general, a parallel approach based on Boruvka can be divided in the following operations:</p>
+<ul>
+<li>
+<p>Choose the lightest edge</p>
 </li>
 <li>
-<p>Rename the (super-)vertices as a preparation for the contraction step</p>
+<p>Find the root of the connected component</p>
+</li>
+<li>
+<p>Rename the supervertices obtained by doing component merge</p>
 </li>
 <li>
 <p>Graph contraction</p>
 </li>
-</ol>
-<p>It's clear that, since I am talking about "Graph contractions" the number of vertices changes and
-the connected components are nothing but super-vertices inside the contracted graph.</p>
-<h2> Implementation roadmap </h2>
-<p>In the following is the roadmap of the development process, once I will be done with the project I
-will change this section to explain more in detail the various processes and the interesting aspects
-that I will also highlight in the report.</p>
-<ul>
-<li>
-<p>Implemented a naïve version of Prim's solver, not using any specific performance-enhancing
-  strategies, in which case the code runs at <span class="arithmatex">\(n^2\)</span> speed.</p>
-</li>
-<li>
-<p>Implemented a naïve solver running on both the GPU and the CPU using the best of both worlds, leveraging the CPU speed when dealing with scans and parallel reductions and using the parallel
-  GPU architecture for the rest.</p>
-</li>
-<li>
-<p>Implemented a new solver on the CPU using a simple binary-heap implementation for Prim's
-  algorithm, which takes the complexity down from <span class="arithmatex">\(n^2\)</span> to <span class="arithmatex">\(m\log{n}\)</span>, where <span class="arithmatex">\(m\)</span> is the size of the
-  set of edges and <span class="arithmatex">\(n\)</span> is the size of the set of vertices.</p>
-</li>
-<li>
-<p>Reimplementation of the contraction operation to use a mix of parallel and work efficient scan
-  alongside a logarithmic-time search operation working on the GPU.</p>
-</li>
-<li>
-<p>Reimplementation of the cumulated degrees update function to work using the new work-efficient
-  strategy.</p>
-</li>
-<li>
-<p>Reimplementation of the technique finding the minimum value for every vertex to break free of the
-  naïve approach originally implemented on the GPU (which is the last function eating a bit portion
-  of the runtime for larger graphs).</p>
-</li>
 </ul>
-<p>Once the project will be fully implemented and tested I will be uploading a series of test-runs and
-graphs alongside the full report.</p>
+<p>All of these operations are performed until the graph has size <span class="arithmatex">\(1\)</span>, which means that all of the
+graph was contracted in one supervertex.</p>
+<p>The particular implementation followed by the colleagues at Minho university is to compute each one
+of these actions as a single kernel, one thread per vertex, since there is no dependence between
+vertices the result is that the computation can be carried out very efficiently as long as the
+neighbourhood for every vertex has a reasonable size. Almost no synchronization is required (only
+inside the exclusive scan operation) and resorting to atomic oeprations is not the norm, therefore
+we have an approach that is almost lock-free and able to perform at a high level on most
+benchmarking instances.</p>
+<h2 id="performance">Performance</h2>
+<p>The algorithm was tested through Google Colab online development environment using their T4 GPU
+alongside <span class="arithmatex">\(12\)</span> GB of system memory two virtual cores taken from an undescriptive Xeon CPU equipped with <span class="arithmatex">\(3\)</span>
+MB of cache. Benchmarking instances were taken from the 9th DIMACS (DIscrete MAthematics &amp;
+theoretical Computer Science center) challenge meant to try and solve the <a href="https://www.diag.uniroma1.it/challenge9/download.shtml">Shortest Path problem</a> efficiently.</p>
+<figure>
+  <img src="../assets/benchmarks.png" alt="Could not load the image" width="50%" height="50%" >
+  <figcaption>Chosen benchmarking suite</figcaption>
+</figure>
+
+<p>On these benchmarks I registered a GPU uplift ranging between <span class="arithmatex">\(30\)</span> and <span class="arithmatex">\(180\)</span> times depending on the CPU
+and GPU implementation considered.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>There is more that still needs to be discovered and since MST solvers are the basis for many other
+algorithm implementations fast is never too fast. I expect more work to be done in the field of
+parallel MST computation, especially trying to find novel approaches that do not necessarily use
+graph contraction to carry out the computation therefore having stronger performance in the field of
+dense graphs manipulation. As far as contraction-based techniques are concerned, I would be interested in seeing whether a fully scan-based implementation suffers as much as hypotheses say due to the necessary amounts of synchronization to make sure that all the threads have a consistent view of memory.</p>
+<p>The full pdf for "A generic and highly efficient parallel variant for Boruvka's algorithm" can be
+found here: <a href="https://ieeexplore.ieee.org/document/7092783">original paper</a></p>
+<p>The full pdf report for my project can be found here:</p>
 
 
 
