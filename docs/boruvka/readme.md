@@ -3,7 +3,7 @@ The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/GPU
 This project was written mainly in **C++** and **CUDA C**.
 
 ## Introduction
-This project was developed for the exam of GPU computing held by professor Giuliano Grossi at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, I chose to analyze this problem because I had already considered one of its solutions for the <a href="https://s3gmentati0nfault.github.io/pl/readme/">Programming Languages</a> course during my bachelor.
+This project was developed for the exam of GPU computing held by professor <a href="https://grossi.di.unimi.it/">Giuliano Grossi</a> at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, I chose to analyze this problem because I had already considered one of its solutions for the <a href="https://s3gmentati0nfault.github.io/pl/readme/">Programming Languages</a> course during my bachelor.
 
 ## Background
 The project is mainly based on the implementation proposed by the University of Minho "A generic and highly efficient parallel variant of Boruvka's algorithm". The performance measurements register an uplift that is comparable to the one computed in the original paper, all of the benchmarks have been conducted on sparse graphs because for a series of reasons: 
@@ -14,7 +14,7 @@ The project is mainly based on the implementation proposed by the University of 
    at peak performance only when sparse graphs were considered.
 
 ## The algorithm
-Given a graph G(E, V) the CPU version of Boruvka solver has a computational complexity of O(m log(n)) where m is the size of the edge set E and n is the size of the vertex set V. The reason why Boruvka's approach is chosen more often compared to Prim's and Kruscal's counterparts is because it's more indicated for any parallel approach. In general, a parallel approach based on Boruvka can be divided in the following operations:
+Given a graph $\mathcal{G}(E, V)$ the CPU version of Boruvka solver has a computational complexity of $\mathcal{O}(m\cdot\log{n})$ where $m$ is the size of the edge set $E$ and $n$ is the size of the vertex set $V$. The reason why Boruvka's approach is chosen more often compared to Prim's and Kruscal's counterparts is because it's more indicated for any parallel approach. In general, a parallel approach based on Boruvka can be divided in the following operations:
 
 - Choose the lightest edge
 
@@ -24,7 +24,7 @@ Given a graph G(E, V) the CPU version of Boruvka solver has a computational comp
 
 - Graph contraction
 
-All of these operations are performed until the graph has size 1, which means that all of the
+All of these operations are performed until the graph has size $1$, which means that all of the
 graph was contracted in one supervertex.
 
 The particular implementation followed by the colleagues at Minho university is to compute each one
@@ -37,7 +37,7 @@ benchmarking instances.
 
 ## Performance
 The algorithm was tested through Google Colab online development environment using their T4 GPU
-alongside 12 GB of system memory two virtual cores taken from an undescriptive Xeon CPU equipped with 3
+alongside $12$ GB of system memory two virtual cores taken from an undescriptive Xeon CPU equipped with $3$
 MB of cache. Benchmarking instances were taken from the 9th DIMACS (DIscrete MAthematics &
 theoretical Computer Science center) challenge meant to try and solve the <a href="https://www.diag.uniroma1.it/challenge9/download.shtml">Shortest Path problem</a> efficiently.
 
@@ -46,7 +46,7 @@ theoretical Computer Science center) challenge meant to try and solve the <a hre
   <figcaption>Chosen benchmarking suite</figcaption>
 </figure>
 
-On these benchmarks I registered a GPU uplift ranging between 30 and 180 times depending on the CPU
+On these benchmarks I registered a GPU uplift ranging between $30$ and $180$ times depending on the CPU
 and GPU implementation considered.
 
 ## Conclusions
