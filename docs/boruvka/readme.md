@@ -59,4 +59,4 @@ dense graphs manipulation. As far as contraction-based techniques are concerned,
 The full pdf for "A generic and highly efficient parallel variant for Boruvka's algorithm" can be
 found here: <a href="https://ieeexplore.ieee.org/document/7092783">original paper</a>
 
-The full pdf report for my project can be found here:
+The full pdf report for my project can be found here: <a href="https://github.com/S3gmentati0nFaultUni/GPU-project/releases/download/final-release/report.pdf">final report</a>
