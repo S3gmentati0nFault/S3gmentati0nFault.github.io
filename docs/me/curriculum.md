@@ -37,10 +37,11 @@ You can always contact me using the following channels:
 - Worked as a private tutor for various students helping them facing exams and tests in various subjects (English, Mathematics, Electromagnetism, Physics, Computer Science, ...)
 
 <h2> Projects </h2>
-Every project that I have done can be found on this website, for each one I provided a brief description and some useful links, in the following I will leave the link to the various pages.
+Instead of listing every project I have done here is a selection of my top 5 most important projects
+in no particular order
 
-- <a href="https://s3gmentati0nfault.github.io/deployment_of_llms_in_6G_networks/readme/">Deployment
-  of LLMs at the edge of the 6G network</a>
+- <a href="https://s3gmentati0nfault.github.io/boruvka/readme/">Efficient solution for MST
+  computation on sparse graphs</a>
 
 - <a href="https://s3gmentati0nfault.github.io/autoencoders/readme/">Anomaly detection for CMS
   measurements using Autoencoders</a>
@@ -50,33 +51,19 @@ Every project that I have done can be found on this website, for each one I prov
 - <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">A secure microservice based
   web-application to handle the data of employees</a>
 
-- <a href="https://s3gmentati0nfault.github.io/vdp/readme/">Pump down the flame</a>
-
 - <a href="https://s3gmentati0nfault.github.io/algoweb/readme/">Web algorithmics lecture notes</a>
-
-- <a href="https://s3gmentati0nfault.github.io/cpp/readme/">Implementation of a sparse matrix
-  library in C++</a>
-
-- <a href="https://s3gmentati0nfault.github.io/cpp/readme/">Implementation of a simple text editor
-  using QT</a>
-
-- <a href="https://s3gmentati0nfault.github.io/pl/readme/">Implementation of Prim's algorithm in
-  Prolog and Common Lisp</a>
-
-- <a href="https://s3gmentati0nfault.github.io/structures/readme/">Discrete structures 1 lecture
-  notes</a>
 
 <h2> Laguages </h2>
 
-- Italian: mother tongue
-
-The english level was certified many years ago through a First for english test and the result was B2. Since then, I have done a series of simpler tests (entrance english test for the university) that are non certifying and provided varying results (between C1 and C2). I am confident that the current level is C1.
+- Italian: native speaker
 
 - English: C1
 
-Studied spanish many years ago but can still understand, read and speak about myself and some other topics. Some work would be required to reach a good level of proficiency.
+The english level was certified many years ago through a First for english test and the result was B2. Since then, I have done a series of simpler tests (entrance english test for the university) that are non certifying and provided varying results (between C1 and C2). I am confident that the current level is C1.
 
 - Spanish: A2
+
+Studied spanish many years ago but can still understand, read and speak about myself and some other topics. Some work would be required to reach a good level of proficiency.
 
 Interests:
 
@@ -85,25 +72,25 @@ Interests:
 - French
 
 <h2> Programming languages </h2>
-The following are the programming languages that I know and the ones that I feel the more comfortable with, I am going to use the same scale used to describe natural languages to trace a parallel. Clearly there is no certification for any of the languages below, apart from the projects that I did.
+To trace a parallel with the spoken languages I have taken a selection of the programming languages I feel most comfortable with and graded my knowledge based on the number of projects I have done with them, the years I have been using them for and the level of confidence I feel when coming back to them; the measurement is, of course, completely subjective,
 
 - Java: C1
 
+  I know how to work with Java, I used it a lot and I have done all of the introductory courses for
+  programming with it and I developed the backend for my <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">thesis</a> with it. Furthermore I know how to
+  work with Threads and concurrency.
+
 - Python: B2
 
-- C: B1
+  I am using Python currently for my master thesis, I never really studied the basis but I moved
+  directly to the use of complex libraries like <a href="https://numpy.org/">Numpy</a>, <a href="https://pandas.pydata.org/">Pandas</a> and <a href="https://scikit-learn.org/stable/">Sklearn</a> for Machine Learning and
+  data analysis.
 
-- Cuda C: B1
-
-- SQL: B1
-
-- C++: A2
-
-- C#: A2
-
-- HTML / CSS / JS: A2
-
-- Lua: A1
+- C, C++, Cuda C: B2
+  
+  C was the first programming language I ever learned and C++ adopted me, I know the older standards
+  for C++ but I would like to get to know some of the newer inventions for this language. On the
+  side I also got to experiment with the Cuda C framework for my <a href="https://s3gmentati0nfault.github.io/boruvka/readme/">GPU computing project</a>
 
 Interests:
 
@@ -117,23 +104,14 @@ In the following I will go over some of the software and frameworks that I use t
 <h3>Nvim</h3>
 Recently discovered the power of this text editor and I am currently using it for most of my projects, still trying to get the hang of it though.
 
-<h3>Zed</h3>
-A more classic IDE written in Rust that I have been using instead of Visual Studio Code for some time now.
-
 <h3>Git</h3>
 Wouldn't consider myself proficient in the usage of git, but I can use it comfortably to manage my projects and work with other people.
 
 <h3>LaTeX</h3>
 I have been using LaTeX for many years and for many different projects, again, I would not define myself an expert in the field, but I can use it comfortably to manage all the documents that require a more professional look.
 
-<h3>Obsidian</h3>
-Discovered this software to take notes and link knowledge and I am trying to integrate it in my workflow in a meaningful way.
-
-<h3>Goodnotes</h3>
-My number one note taking app on the iPad.
-
 <h3>Linux</h3>
-I have been a die hard fan of the Linux ecosystem for many years now, I have been using many different distributions (from Void to Debian to Manjaro to Ubuntu) and I always learned something from every time I broke the system.
+I have been a die hard fan of the Linux ecosystem for many years now, I have been using many different distributions (from Void to Debian to Manjaro to Ubuntu) and I always learned something while breaking the operating system.
 
 I am currently rocking a single boot Pop-OS! installation of my personal tower with which I do all of my work.
 
