@@ -32,7 +32,6 @@ nav:
       - "Web algorithmics": algoweb/readme.md
       - "C++ programming project": cpp/readme.md
       - "Programming languages project": pl/readme.md
-      - "Discrete structures 1": structures/readme.md
   - Me:
       - "Curriculum": me/curriculum.md
       - "Passions": me/passions.md
