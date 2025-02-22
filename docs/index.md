@@ -5,11 +5,10 @@ I'm a computer science student at the end of my master studies at <a href="https
 I am in the process of starting my master Thesis titled "Supervised machine learning techniques for quench detection in superconductors" accompanied by professors Dario Malchiodi and Lucio Rossi.
 
 <h2> What am I looking for? </h2>
-My journey in university life is almost at the end and I am asking myself more and more "What do I
-want from my future?"
+My university journey is now coming to an end, a recurring thought lately has been:"What do I want from my future?"
 
-At the moment I am exploring the possibilities of a PhD in fields of computer science that can be
-applied to physics some examples could be:
+At the moment I am exploring the possibilities of a PhD in computer science applied to the field of
+physics, I am very interested in:
 
 - GPU computing or efficient algorithm design (both sequential and parallel)
 
