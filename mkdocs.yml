@@ -22,8 +22,9 @@ extra_javascript:
 nav:
   - Home: index.md
   - Latest project:
-    - "Efficient solution for MST computation on sparse graphs": boruvka/readme.md
+    - "Worked on my first publication!": publications/EANN.md
   - Older projects:
+      - "Efficient solution for MST computation on sparse graphs": boruvka/readme.md
       - "Deployment of LLMs at the edge of the 6G network": deployment_of_llms_in_6G_networks/readme.md
       - "Anomaly detection": autoencoders/readme.md
       - "Greenfield": greenfield/readme.md
