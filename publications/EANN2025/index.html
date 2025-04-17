@@ -12,13 +12,9 @@
         <meta name="author" content="Alessandro Biagiotti">
       
       
-        <link rel="canonical" href="https://S3gmentati0nFault.github.io/autoencoders/readme/">
+        <link rel="canonical" href="https://S3gmentati0nFault.github.io/publications/EANN2025/">
       
       
-        <link rel="prev" href="../../deployment_of_llms_in_6G_networks/readme/">
-      
-      
-        <link rel="next" href="../../greenfield/readme/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +22,7 @@
     
     
       
-        <title>Anomaly detection - Alessandro Biagiotti's portfolio</title>
+        <title>EANN2025 - Alessandro Biagiotti's portfolio</title>
       
     
     
@@ -101,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Anomaly detection
+              EANN2025
             
           </span>
         </div>
@@ -284,20 +280,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -313,7 +307,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Older projects
@@ -370,17 +364,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../autoencoders/readme/" class="md-nav__link">
         
   
   
@@ -391,7 +378,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -780,31 +766,20 @@
 
 
 
-  <h1>Anomaly detection</h1>
+  <h1>EANN2025</h1>
 
-<p>The project can be found on <a href="https://github.com/S3gmentati0nFaultUni/autoencoders">Github (Autoencoders project)</a>.</p>
-<p>This project was written mainly in <strong>Python</strong> using <strong>Jupyter notebooks</strong>.</p>
-<h2>Introduction</h2>
-<p>I did this project alongside <a href="https://github.com/MassimoMario">Mario Massimo</a> during my stay in Heidelberg for the course of Machine Learning and Physics held by professor <a href="https://www.thphys.uni-heidelberg.de/~plehn/">Tilman Plehn</a>. The project aimed at comparing performance for two different machine learning architectures, the first being an MLP based autoencoder and the second being a CNN based autoencoder, in the field of anomaly detection.</p>
-<p>The dataset came from the professor and a given preprocessing step was applied to turn CMS measurements into 40x40 images.</p>
-<p>The task at hand was: given the dataset, containing two different types of jets (Quantum ChromoDynamics and Top), use one of the two jets as signal and the other as anomaly.</p>
-<p>The following image is taken from the representation of two different jets inside of the dataset, one is a Top jet and the other is a QCD jet.
-A straightforward consequence of the three-pronged structure of top jets is going to be that using the spatial information to distinguish them from the anomaly (QCD jets) is not going to be a great idea, and that is because QCD jets can be seen as a top jet whose prongs are extremely close together.</p>
-<figure>
-  <img src="../assets/qcd_vs_top.png" alt="could not load the image">
-  <figcaption>Top (left) vs QCD (left) jets</figcaption>
-</figure>
-
-<p>A round of reconstruction can be seen in the following image, the process was done using the MLP autoencoder trained to recognize Top jets as signal and QCD jets as anomaly.</p>
-<figure>
-  <img src="../assets/mlp_reconstruction.png" alt="could not load the image">
-</figure>
-
-<p>As it can be clearly seen the reconstruction procedure is far from perfect, due to a very high amount of background noise, but the autoencoder is able to recognize and reconstruct the principal spatial features of both the signal and the anomaly. This proves that the autoencoder is unable to find the anomaly (in this case the QCD) since it reconstructs it almost perfectly, as if it was a Top jet.</p>
-<p>The code can be found on my github repository and down below I provide downloads for the compressed dataset, an HTML version of the notebook with all the outputs and the requirements sheet.</p>
-<p><a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/sheet_requirements.pdf">Download sheet requirements</a></p>
-<p><a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/data.zip">Download the compressed dataset</a></p>
-<p><a href="https://github.com/S3gmentati0nFaultUni/autoencoders/releases/download/final-release/easy_reading.html">Download the HTML notebook</a></p>
+<p>I am currently working on my first publication ever, which will be published in the Engineering
+Applications of Neural Networks journal for 2025, it's a very important step for me because I am
+being more and more drawn towards the world of scientific research and understanding how to write
+and publish my work was something that really hyped me.</p>
+<p>The article will be published under the title 'Quench detection and localization via interpretable
+machine learning', and it focuses on the work that I have been doing on the high order corrector
+superconducting magnets that will be mounted at CERN. Our objective was to find explainable machine
+learning models capable of abstracting the concept of quench transition (a superconductor quenches
+when the resistance of the material suddendly moves from 0 to a real non-zero value) and predicting
+it with high accuracy.</p>
+<p>These models needed not only to understand when the material quenches, but also localize the coil(s)
+that underwent the transition within the magnet.</p>
 
 
 
