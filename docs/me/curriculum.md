@@ -65,9 +65,12 @@ The english level was certified many years ago through a First for english test 
 
 Studied spanish many years ago but can still understand, read and speak about myself and some other topics. Some work would be required to reach a good level of proficiency.
 
-Interests:
+- German: A1.2
 
-- German
+Currently enrolled in a language school to achieve A1.2 don't have any certifications as of right
+now.
+
+Interests:
 
 - French
 
