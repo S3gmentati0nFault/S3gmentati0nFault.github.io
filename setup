@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+if [ ! -d "mkdocs_venv" ]; then
+	echo "Creating the virtual environment"
+	python3 -m venv ./mkdocs_venv
+fi
+
+# Mount the virtual environment
+source ./mkdocs_venv/bin/activate
+echo $VIRTUAL_ENV
+
+pip-compile requirements.in
+
+# Install the packages
+pip install -r requirements.txt
