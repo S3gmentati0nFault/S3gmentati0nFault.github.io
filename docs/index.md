@@ -1,11 +1,8 @@
 Welcome on my portfolio website!
 
-I'm a doctor in computer science, just graduated from <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, I started the master with the intention of exploring the field of distributed systems and cloud computing, I am now moving towards the field of applied machine learning, after the course of Machine Learning for Physics, held by professor Tilman Plehn at <a href="https://s3gmentati0nfault.github.io/me/erasmus/">Karl Ruprecht university of Heidelberg</a>.
+I'm Alessndro Biagiotti, 25 years old from Italy, recently graduated from my Master's in computer science at <a href="https://s3gmentati0nfault.github.io/me/unimi/">Università degli studi di Milano</a>, I started the master with the intention of exploring the field of distributed systems and cloud computing. I am now moving towards the field of applied machine learning and extremely parallelised systems, after rediscovering the love for Physics.
 
-My master thesis was titled "Supervised machine learning techniques for quench detection in
-superconductors" and I achieved an amazing result. At the moment I am still collaborating with my
-advisor <a href="https://malchiodi.di.unimi.it/">Dario Malchiodi</a> and my co-advisor <a href="https://www.unimi.it/it/ugov/person/samuele-mariotto">Samuele
-Mariotto</a> to further explore the consequences of our research (more information <a href="https://s3gmentati0nfault.github.io/mprjct/readme/">here</a>).
+My master thesis was titled "Supervised machine learning techniques for quench detection in superconductors" and I we achieved interesting results which were worth publishing at a minor engineering paper. At the moment I am still collaborating with my advisor <a href="https://malchiodi.di.unimi.it/">Dario Malchiodi</a> and my co-advisor <a href="https://www.unimi.it/it/ugov/person/samuele-mariotto">Samuele Mariotto</a> to further explore the consequences of our research (more information <a href="https://s3gmentati0nfault.github.io/mprjct/readme/">here</a>).
 
 
 <h2> What am I looking for? </h2>
