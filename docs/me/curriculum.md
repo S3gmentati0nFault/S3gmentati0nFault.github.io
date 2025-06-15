@@ -5,7 +5,7 @@ In the meantime, this page acts as a web-based version of my curriculum vitae. I
 <h2> Contact Information </h2>
 You can always contact me using the following channels:
 
-<div style="display: flex;">
+<div style="display: flex;width: 100%;flex-direction: horizontal;">
   <div style="flex: 1;">
     <a href="mailto:alexbgtt@gmail.com">alexbgtt@gmail.com</a>
   </div>
@@ -26,6 +26,8 @@ The final graduation result was 109 / 110 with my thesis <a href="https://s3gmen
 - Bachelor studente in Computer Engineering at <a href="https://s3gmentati0nfault.github.io/me/polimi">Politecnico di Milano</a> *(2018 - 2020)*
 
 <h2> Previous work experiences </h2>
+
+- Currently working as assistant researcher for the Instut für tecknische informatik (ZITI) in Heidelberg *(June 2025 - August 2025)*
 
 - Worked as a tutor for international students at the <a href="https://s3gmentati0nfault.github.io/me/unimi">Università degli studi di Milano</a> *(May 2024 - Apr 2025)*
 
@@ -77,15 +79,15 @@ Interests:
 <h2> Programming languages </h2>
 To trace a parallel with the spoken languages I have taken a selection of the programming languages I feel most comfortable with and graded my knowledge based on the number of projects I have done with them, the years I have been using them for and the level of confidence I feel when coming back to them; the measurement is, of course, completely subjective,
 
-- Java: C1
+- Java: B2
 
   I know how to work with Java, I used it a lot and I have done all of the introductory courses for programming with it and I developed the backend for my <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">thesis</a> with it. Furthermore I know how to work with Threads and concurrency. I'm so confident with it that I chose it as my main programming language for the interviews I am taking.
 
-- Python: B2
+- Python: B1
 
   I used Python for my master thesis, I never really studied the basis, but I moved directly to the use the classic data science stack, namely: <a href="https://numpy.org/">Numpy</a>, <a href="https://pandas.pydata.org/">Pandas</a> and <a href="https://scikit-learn.org/stable/">Sklearn</a>.
 
-- C, C++, Cuda C: B2
+- C, C++, Cuda C: B1
   
   C was the first programming language I ever learned and C++ adopted me. I know the older standards for C++ but I would like to get to know some of the newer inventions for this language. On the side I also got to experiment with the Cuda C framework for my <a href="https://s3gmentati0nfault.github.io/boruvka/readme/">GPU computing project</a>
 

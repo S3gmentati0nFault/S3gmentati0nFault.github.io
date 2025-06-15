@@ -42,3 +42,5 @@ nav:
       - "Unimi": me/unimi.md
       - "Unimib": me/unimib.md
       - "Polimi": me/polimi.md
+  - Blog:
+      - "ISC Hamburg 2025": blog/isc.md

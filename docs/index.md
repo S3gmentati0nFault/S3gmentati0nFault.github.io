@@ -4,6 +4,7 @@ I'm Alessndro Biagiotti, 25 years old from Italy, recently graduated from my Mas
 
 My master thesis was titled "Supervised machine learning techniques for quench detection in superconductors" and I we achieved interesting results which were worth publishing at a minor engineering paper. At the moment I am still collaborating with my advisor <a href="https://malchiodi.di.unimi.it/">Dario Malchiodi</a> and my co-advisor <a href="https://www.unimi.it/it/ugov/person/samuele-mariotto">Samuele Mariotto</a> to further explore the consequences of our research (more information <a href="https://s3gmentati0nfault.github.io/mprjct/readme/">here</a>).
 
+I am currently working as assistant researcher for <a href="https://asc.ziti.uni-heidelberg.de/members/robert_strzodka/">Professor Robert Strzodka</a> in the field of graph colouring algorithms for GPUs. This effort should go into the creation of a system capable of parallelizing effectively classical preconditioners for iterative methods (such as the Incomplete LU factorization).
 
 <h2> What am I looking for? </h2>
 Now that my university journey has ended I'm trying to answer the question: 'What do I want from my future?'
