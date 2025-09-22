@@ -1,0 +1,99 @@
+:root {
+	--textColor: #231942;
+	--primary: #5e548e;
+	--secondary: #9f86c0;
+	--terciary: #be95c4;
+	--quaternary: #e0b1cb;
+	--background: #fde4cf;
+	--dark-accent: #941b0c;
+	--accent: #f8961e;
+}
+
+@keyframes hoverEffect {
+	from {
+		color: var(--textColor);
+	}
+
+	to {
+		color: var(--dark-accent);
+	}
+}
+
+body {
+	background-color: var(--background);
+	color: var(--textColor);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+	background-color: var(--terciary);
+	overflow: hidden;
+	height: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	a {
+		padding: 3em;
+		color: var(--textColor);
+		text-decoration: none;
+		font-weight: 800;
+		font-size: 1.5em;
+	}
+
+	a:hover {
+		animation-name: hoverEffect;
+		animation-duration: 0.5s;
+		color: var(--dark-accent);
+	}
+}
+
+#personal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	#presentation {
+		width: 40%;
+		font-size: 1.5em;
+		padding: 2em;
+		background-color: var(--accent);
+		border-radius: 2em;
+	}
+
+	#pfp {
+		width: 25em;
+		margin: 0 20em 0 3em;
+	}
+}
+
+
+#p1 {
+	background-color: var(--textColor);
+	height: 12em;
+	width: 7em;
+}
+
+#p2 {
+	background-color: var(--primary);
+	height: 12em;
+	width: 7em;
+}
+
+#p3 {
+	background-color: var(--secondary);
+	height: 12em;
+	width: 7em;
+}
+
+#p4 {
+	background-color: var(--terciary);
+	height: 12em;
+	width: 7em;
+}
+
+#p5 {
+	background-color: var(--quaternary);
+	height: 12em;
+	width: 7em;
+}
