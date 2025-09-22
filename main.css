@@ -50,20 +50,25 @@ body {
 
 #personal {
 	display: flex;
-	justify-content: center;
 	align-items: center;
 
 	#presentation {
 		width: 40%;
 		font-size: 1.5em;
 		padding: 2em;
-		background-color: var(--accent);
+		background-color: var(--terciary);
 		border-radius: 2em;
 	}
 
 	#pfp {
+		width: 60%;
 		width: 25em;
-		margin: 0 20em 0 3em;
+		margin: 0 15em 0 0;
+	}
+
+	img {
+		width: 100%;
+		border-radius: 2em;
 	}
 }
 
