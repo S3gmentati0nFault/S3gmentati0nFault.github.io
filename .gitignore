@@ -4,5 +4,8 @@ site/
 # Ignore the python virtual environment
 mkdocs_venv/
 
-#ignore the requirements.txt file
+# Ignore the requirements.txt file
 requirements.txt
+
+# Ignore the secrets file
+secrets.env
