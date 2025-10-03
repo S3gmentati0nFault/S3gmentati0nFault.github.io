@@ -34,6 +34,21 @@
 			profile is rounded up by a strong theoretical background in computer science and mathematics.
 		</p>
 	</div>
+	<div id="reporeadme">LOADING</div>
+	<script>
+		async function loadReadme() {
+			const res = await fetch('src/fetcher?repo=latex-compile-release-action');
+			const data = await res.json();
+			const markdown = data.data.repository.object.text;
+
+			// If you want plain markdown:
+			document.getElementById('reporeadme').innerText = markdown;
+
+			// Or, if you include a markdown renderer like marked.js:
+			// document.getElementById('readme').innerHTML = marked.parse(markdown);
+		}
+		loadReadme();
+	</script>
 	<h2>Featured projects</h2>
 	<div id="p1"></div>
 	<div id="p2"></div>
