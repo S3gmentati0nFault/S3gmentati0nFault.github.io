@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-async function github() {
+exports.handler = async (event) => {
 	const token = process.env.GITHUB_KEY
 	const owner = process.env.OWNER
 	const repo = event.queryStringParameters.repo
