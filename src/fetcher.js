@@ -6,8 +6,8 @@ export.handler = async(event) => {
 	const repo = event.queryStringParameters.repo
 
 	const query = `
-		query($owner:String!, $name:String!) {
-			repository(owner:$owner, name:$name) {
+		query {
+			repository(owner:$owner, name:$repo) {
 				object(expression:"HEAD:README.md") {
 		  		... on Blob { text }
 			}
