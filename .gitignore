@@ -6,6 +6,3 @@ mkdocs_venv/
 
 # Ignore the requirements.txt file
 requirements.txt
-
-# Ignore the secrets file
-secrets.env
