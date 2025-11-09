@@ -26,8 +26,9 @@ The final graduation result was 109 / 110 with my thesis <a href="https://s3gmen
 - Bachelor studente in Computer Engineering at <a href="https://s3gmentati0nfault.github.io/me/polimi">Politecnico di Milano</a> *(2018 - 2020)*
 
 <h2> Previous work experiences </h2>
+- Currently working as PhD candidate for the Institut für technische informatik (ZITI) @ASC in Heidelberg *(October 2025 - )*
 
-- Currently working as assistant researcher for the Instut für tecknische informatik (ZITI) in Heidelberg *(June 2025 - August 2025)*
+- Worked as assistant researcher for the Institut für technische informatik (ZITI) @ASC in Heidelberg *(June 2025 - August 2025)*
 
 - Worked as a tutor for international students at the <a href="https://s3gmentati0nfault.github.io/me/unimi">Università degli studi di Milano</a> *(May 2024 - Apr 2025)*
 
@@ -79,6 +80,10 @@ Interests:
 <h2> Programming languages </h2>
 To trace a parallel with the spoken languages I have taken a selection of the programming languages I feel most comfortable with and graded my knowledge based on the number of projects I have done with them, the years I have been using them for and the level of confidence I feel when coming back to them; the measurement is, of course, completely subjective,
 
+- C, C++, Cuda C: B2 / C1
+  
+  C was the first programming language I ever learned and C++ adopted me. Lately due to my work and the kind of libraries I am getting acquainted with, I had to get to know the latest standards of C++.
+
 - Java: B2
 
   I know how to work with Java, I used it a lot and I have done all of the introductory courses for programming with it and I developed the backend for my <a href="https://s3gmentati0nfault.github.io/bachelor/readme/">thesis</a> with it. Furthermore I know how to work with Threads and concurrency. I'm so confident with it that I chose it as my main programming language for the interviews I am taking.
@@ -86,10 +91,6 @@ To trace a parallel with the spoken languages I have taken a selection of the pr
 - Python: B1
 
   I used Python for my master thesis, I never really studied the basis, but I moved directly to the use the classic data science stack, namely: <a href="https://numpy.org/">Numpy</a>, <a href="https://pandas.pydata.org/">Pandas</a> and <a href="https://scikit-learn.org/stable/">Sklearn</a>.
-
-- C, C++, Cuda C: B1
-  
-  C was the first programming language I ever learned and C++ adopted me. I know the older standards for C++ but I would like to get to know some of the newer inventions for this language. On the side I also got to experiment with the Cuda C framework for my <a href="https://s3gmentati0nfault.github.io/boruvka/readme/">GPU computing project</a>
 
 Interests:
 
@@ -101,7 +102,7 @@ Interests:
 In the following I will go over some of the software and frameworks that I use the most and I have used in my private or university projects.
 
 <h3>Nvim</h3>
-Recently discovered the power of this text editor and I am currently using it for most of my projects, still trying to get the hang of it though.
+Recently discovered the power of this text editor and I am currently using it for all my projects.
 
 <h3>Git</h3>
 Wouldn't consider myself proficient in the usage of git, but I can use it comfortably to manage my projects and work with other people.
@@ -110,7 +111,7 @@ Wouldn't consider myself proficient in the usage of git, but I can use it comfor
 I have been using LaTeX for many years and for many different projects, again, I would not define myself an expert in the field, but I can use it comfortably to manage all the documents that require a more professional look.
 
 <h3>Linux</h3>
-I have been using Linux dor many years, I experimented many different distributions and I understood their core logic (from Debian to Manjaro to PopOS!). I am currently running Arch Linux on my laptop and PopOS! on my tower. I am also beginning to work in the field of Servers using Proxmox.
+I have been using Linux for many years, I experimented many different distributions and I understood their core logic (from Debian to Manjaro to PopOS!). I am currently running Arch Linux on all my computers.
 
 <h3>Microsoft suite</h3>
 While I do not use Windows usually I have used the Microsoft suite to create presentations and
