@@ -1,6 +1,6 @@
 Welcome on my portfolio website!
 
-I'm Alessandro Biagiotti, 25 years old, currently working as PhD candidate in Heidelberg Uniersity at the Application Specific Computing lab on efficient techniques for physical and chemical simulations, currently working in the specific field of Hydrodynamics for Astrophysics.
+I'm Alessandro Biagiotti, 25 years old, currently working as PhD candidate for Heidelberg University at the Application Specific Computing lab on efficient techniques for physical and chemical simulations, currently working in the specific field of Hydrodynamical methods for Astrophysics.
 
 My master thesis was titled "Supervised machine learning techniques for quench detection in superconductors" and  we achieved interesting results which were worth publishing at a minor engineering paper.
 
