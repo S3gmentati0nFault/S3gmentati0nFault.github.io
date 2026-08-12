@@ -25,6 +25,91 @@ body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.menubar {
+	background-color: var(--terciary);
+}
+#responsive-menu {
+	position: relative;
+	flex: 0 0 auto;
+}
+
+#responsive-menu>summary {
+	cursor: pointer;
+	list-style: none;
+}
+
+#responsive-menu>summary::-webkit-details-marker {
+	display: none;
+}
+
+.menu-panel {
+	position: absolute;
+	top: calc(100% + 0.75em);
+	left: 0;
+	z-index: 10;
+	min-width: 12em;
+	margin: 0;
+	padding: 0.5em;
+	list-style: none;
+	background-color: var(--terciary);
+	border-radius: 1em;
+
+	a {
+		display: block;
+		padding: 0.5em 0.75em;
+		border-radius: 0.5em;
+		color: var(--textColor);
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	a:hover {
+		color: var(--dark-accent);
+	}
+}
+
+.main-content {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding: 0.75em 1.5em;
+
+	h2 {
+		margin: 0;
+	}
+}
+
+#menu {
+	background-color: aqua;
+	width: 2em;
+	height: 2em;
+	flex: 0 0 auto;
+}
+#theme-selector,
+#language-selector {
+	background-color: aqua;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	flex: 0 0 auto;
+}
+.placeholder-image {
+	background-color: aqua;
+	width: 300px;
+	height: 200px;
+	flex: 0 0 auto;
+}
+
+
+#theme-selector {
+	margin-left: auto;
+}
+
 .navbar {
 	background-color: var(--terciary);
 	overflow: hidden;
@@ -48,6 +133,24 @@ body {
 	}
 }
 
+.color-blob {
+	background-color: var(--terciary);
+	border-radius: 2em;
+}
+
+.project-presentation {
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+.project-text {
+	display: block;
+	margin-right: 5em;
+	margin-left: 5em;
+}
+
 #personal {
 	display: flex;
 	align-items: center;
@@ -56,8 +159,6 @@ body {
 		width: 40%;
 		font-size: 1.5em;
 		padding: 2em;
-		background-color: var(--terciary);
-		border-radius: 2em;
 	}
 
 	#pfp {
@@ -70,35 +171,4 @@ body {
 		width: 100%;
 		border-radius: 2em;
 	}
-}
-
-
-#p1 {
-	background-color: var(--textColor);
-	height: 12em;
-	width: 7em;
-}
-
-#p2 {
-	background-color: var(--primary);
-	height: 12em;
-	width: 7em;
-}
-
-#p3 {
-	background-color: var(--secondary);
-	height: 12em;
-	width: 7em;
-}
-
-#p4 {
-	background-color: var(--terciary);
-	height: 12em;
-	width: 7em;
-}
-
-#p5 {
-	background-color: var(--quaternary);
-	height: 12em;
-	width: 7em;
 }
