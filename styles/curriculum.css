@@ -1,0 +1,27 @@
+.main-content {
+    .section-title {
+        margin-bottom: 0;
+    }
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.expo {
+    p {
+        margin: 0;
+    }
+}
+
+.italic-field {
+    font-style: italic;
+}
+
+.double-field-box {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}

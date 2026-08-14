@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>alexbgtt.tech</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../styles/main.css">
+	<link rel="stylesheet" href="../../styles/project.css">
+</head>
+
+<body>
+	<div class="header menubar">
+		<details id="responsive-menu">
+			<summary id="menu" aria-label="Menu"></summary>
+			<ul class="menu-panel">
+				<li><a href="../curriculum.html">Curriculum</a></li>
+				<li><a href="../research.html">Research</a></li>
+				<li><a href="../university.html">University</a></li>
+				<li><a href="../projects/home.html">Projects</a></li>
+				<li><a href="../passions.html">Passions</a></li>
+			</ul>
+		</details>
+		<div id="title"><h2>Alessandro's cave</h2></div>
+		<a href="../../index.html"><div id="home-button"></div></a>
+		<div id="theme-selector"></div>
+		<div id="language-selector"></div>
+	</div>
+	<div class="main-content">
+		<div class="master-thesis">
+            <h2>Master's thesis: explainable machine learning for quench detection</h2>
+            <div class="links">
+                <a href="https://github.com/S3gmentati0nFaultUni/machine-learning-for-quench-detection"><div id="github"></div></a>
+            </div>
+            <p>
+                During my master's thesis I studied the behavior of a family of magnets called 
+                High Order Correctors. These magnets have been mounted on the Large Hadron Collider 
+                and they are utilized in the relative proximity of the interaction regions to make 
+                sure that the beam that is going to have to pass through the machinery doesn't present 
+                any kind of unwanted oscillations on different magnetic field harmonics.
+                <br>
+                <br>
+                High Order Correctors, like any other superconducting magnet, need to be operated within 
+                certain operational parameters. This means that, in order to maintain the electrical 
+                resistance at 0, we need to make sure that:
+                <ul>
+                    <li>The temperature remains within a certain range,</li>
+                    <li>The magnetic field remains within an acceptable range.</li>
+                </ul>
+                If the temperature raises too much (due to mechanical stress or other) or the applied magnetic 
+                field is too strong due to the presence of neighbouring magnets within the assembly, then the 
+                magnet could quench.
+                <br>
+                <br>
+                Quench is a phenomenon that happens whenever a magnet transitions from the superconducting 
+                state (resistance 0) to the conducting state (resistance >0). Whenever that happens we might 
+                have an irreversible buildup of heat within the magnet that could catastrophically damage it 
+                and the machine.
+                <br>
+                In order to avoid thousands upon thousands of euros of damage to the machine or its 
+                devices, a failsafe mechanism was designed to make sure that, whenever an increase in 
+                the resistive voltage is being picked up, energy is completely cut from the magnet and the 
+                beam itself is redirected to a lead target to be dumped safely. This avoids any damage to 
+                the machine and the infrastructure and it gives time to the magnets to cool off.
+                <br>
+                <br>
+                Our idea was to see whether we were able to perform a more accurate analysis by using 
+                machine learning models. Can we use machine learning to accurately predict what kind of 
+                quench we are in front in order to reduce the amount of beams dumped? Can we develop 
+                machine learning models capable of helping in the design of future magnets?
+                <br>
+                <br>
+                At the end of our research, we were able to make an analysis on quadrupolar data for High Order Correctors and we 
+                found a strong correlation between the information obtained via post-mortem analysis on the 
+                harmonic decomposition of the magnetic field and the presence and location of the quench within 
+                the magnet's assembly.
+                <br>
+                We used simple models like decision trees and random forests, we then created our own "collage model" 
+                that was able to perform slightly better than the default scikit-learn models.
+                <br>
+                <br>
+                The research we conducted was further developed by PhD students from Naples University that 
+                developed models based on isolation forests and Autoencoder/Decoder for anomaly detection which 
+                helped identifying the quench phenomenon, isolating it from noise, using data coming from voltage 
+                taps placed within the magnet assembly (a different kind of data from the one that I worked with) 
+                and unlocking the possibility to recognize this problem with high performance in a runtime environment.
+                <br>
+                Currently the biggest question remains, of course, unsolved. How can we extend this to a generic magnet? 
+                Our studies proved to be useful only for High Order Correctors of the quadrupolar kind, that is due to 
+                the fact that the distribution of the odd cases was extremely skewed (over 200 cases for quadrupoles, 
+                less than 50 for hexa, octa, deca and dodecapoles). Furthermore the values that the models deployed learned 
+                are not useful for different kinds of magnets, which reach different magnetic field levels and therefore have 
+                different harmonic decomposition of the residual magnetic field after the Quench Protection System kicks in.
+            </p>
+		</div>
+    </div>
+	<div class="footer">
+		<p>Made with love by HeartOfGold</p>
+	</div>
+</body>

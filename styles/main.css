@@ -1,0 +1,162 @@
+:root {
+	--textColor: #231942;
+	--primary: #5e548e;
+	--secondary: #9f86c0;
+	--terciary: #be95c4;
+	--quaternary: #e0b1cb;
+	--background: #fde4cf;
+	--dark-accent: #941b0c;
+	--accent: #f8961e;
+}
+
+@keyframes hoverEffect {
+	from {
+		color: var(--textColor);
+	}
+
+	to {
+		color: var(--dark-accent);
+	}
+}
+
+body {
+	background-color: var(--background);
+	color: var(--textColor);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menubar {
+	background-color: var(--terciary);
+}
+#responsive-menu {
+	position: relative;
+	flex: 0 0 auto;
+}
+
+#responsive-menu>summary {
+	cursor: pointer;
+	list-style: none;
+}
+
+#responsive-menu>summary::-webkit-details-marker {
+	display: none;
+}
+
+.menu-panel {
+	position: absolute;
+	top: calc(100% + 0.75em);
+	left: 0;
+	z-index: 10;
+	min-width: 12em;
+	margin: 0;
+	padding: 0.5em;
+	list-style: none;
+	background-color: var(--terciary);
+	border-radius: 1em;
+
+	a {
+		display: block;
+		padding: 0.5em 0.75em;
+		border-radius: 0.5em;
+		color: var(--textColor);
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	a:hover {
+		color: var(--dark-accent);
+	}
+}
+
+.main-content {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding: 0.75em 1.5em;
+
+	#title {
+		display: flex;
+		align-items: center;
+		margin: 0 auto 0 0;
+
+		h2 {
+			margin: 0;
+			line-height: 1;
+			text-box: trim-both cap alphabetic;
+		}
+	}
+}
+
+@supports not (text-box: trim-both cap alphabetic) {
+	.header #title h2 {
+		position: relative;
+		top: 0.15em;
+	}
+}
+
+#menu {
+	background-color: aqua;
+	width: 2em;
+	height: 2em;
+	flex: 0 0 auto;
+}
+#home-button,
+#theme-selector,
+#language-selector {
+	background-color: aqua;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	flex: 0 0 auto;
+}
+.placeholder-image {
+	background-color: aqua;
+	width: 300px;
+	height: 200px;
+	flex: 0 0 auto;
+}
+
+.color-blob {
+	background-color: var(--terciary);
+	border-radius: 2em;
+}
+
+.project-presentation {
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+.project-text {
+	display: block;
+	margin-right: 5em;
+	margin-left: 5em;
+}
+
+#personal {
+	display: flex;
+	align-items: center;
+
+	#presentation {
+		width: 40%;
+		font-size: 1.5em;
+		padding: 2em;
+	}
+
+	#pfp {
+		width: 60%;
+		width: 25em;
+		margin: 0 15em 0 0;
+	}
+
+	img {
+		width: 100%;
+		border-radius: 2em;
+	}
+}
